@@ -104,5 +104,5 @@ class Place(BaseModel, Base):
             for value in storage.all(Review).values():
                 if value.place_id == self.id:
                     reviews_of_place.append(value)
-            return reviews_of_placg
+            return reviews_of_place
 
