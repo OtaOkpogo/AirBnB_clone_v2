@@ -32,6 +32,7 @@ class TestConsole(unittest.TestCase):
         """at the end of the test this will tear it down"""
         del cls.consol
 
+
     def tearDown(self):
         """Remove temporary file (file.json) created as a result"""
         try:
