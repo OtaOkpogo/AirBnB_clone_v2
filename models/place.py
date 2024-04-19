@@ -91,4 +91,4 @@ class Place(BaseModel, Base):
             for amenity in values_amenity:
                 if amenity.place_id == self.id:
                     list_amenity.append(amenity)
-            return list_amenity
+                return list_amenity
